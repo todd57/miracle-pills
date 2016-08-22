@@ -16,7 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="miraclePillEmoji" translatesAutoresizingMaskIntoConstraints="NO" id="Twv-F6-SGX">
@@ -31,28 +31,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$150" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFs-1r-Eb6">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="42" id="sgr-g7-BhO"/>
-                                    <constraint firstAttribute="height" constant="21" id="vrf-om-faA"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view alpha="0.29999999999999999" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zsO-qM-rDD" userLabel="Divider">
-                                <frame key="frameInset" minX="114.56216107824503" minY="238" width="145" height="0.99999999999995737"/>
+                            <view alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9D6-Om-hiO" userLabel="Divider">
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="1" id="Q7u-Vd-Y8m"/>
+                                    <constraint firstAttribute="height" constant="1" id="gPY-ir-ZIY"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zsO-qM-rDD" firstAttribute="centerX" secondItem="XFs-1r-Eb6" secondAttribute="centerX" id="4Ng-kR-U00"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="zsO-qM-rDD" secondAttribute="trailing" constant="20" id="5a2-rv-gdh"/>
-                            <constraint firstItem="zsO-qM-rDD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="IXA-x9-62v"/>
-                            <constraint firstItem="zsO-qM-rDD" firstAttribute="top" secondItem="XFs-1r-Eb6" secondAttribute="bottom" constant="10" id="M8V-fL-Mra"/>
+                            <constraint firstItem="9D6-Om-hiO" firstAttribute="centerX" secondItem="XFs-1r-Eb6" secondAttribute="centerX" id="DY2-6d-4An"/>
+                            <constraint firstItem="9D6-Om-hiO" firstAttribute="top" secondItem="XFs-1r-Eb6" secondAttribute="bottom" constant="10" id="Jql-8H-ncA"/>
+                            <constraint firstItem="9D6-Om-hiO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="RNr-sk-Zx6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9D6-Om-hiO" secondAttribute="trailing" constant="20" id="Ygi-ur-TqB"/>
                             <constraint firstItem="TC5-Kd-XfK" firstAttribute="top" secondItem="Twv-F6-SGX" secondAttribute="bottom" constant="37" id="bWK-JE-q4e"/>
                             <constraint firstItem="XFs-1r-Eb6" firstAttribute="top" secondItem="TC5-Kd-XfK" secondAttribute="bottom" constant="8" id="bie-72-fy3"/>
                             <constraint firstItem="TC5-Kd-XfK" firstAttribute="centerX" secondItem="Twv-F6-SGX" secondAttribute="centerX" id="dc2-bw-Ypq"/>
@@ -64,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+            <point key="canvasLocation" x="31.875" y="36.25"/>
         </scene>
     </scenes>
     <resources>
